@@ -34,7 +34,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: player-walk-east
-  m_Speed: 1
+  m_Speed: 0.6
   m_CycleOffset: 0
   m_Transitions: []
   m_StateMachineBehaviours: []
@@ -137,23 +137,23 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -7239150346427373739}
-    m_Position: {x: 200, y: 40, z: 0}
+    m_Position: {x: 260, y: 40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7382457171821335591}
-    m_Position: {x: 235, y: 105, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: 5283812961354443164}
     m_Position: {x: 270, y: 170, z: 0}
   - serializedVersion: 1
+    m_State: {fileID: 5283812961354443164}
+    m_Position: {x: 270, y: 230, z: 0}
+  - serializedVersion: 1
     m_State: {fileID: -8714802945349843173}
-    m_Position: {x: 305, y: 235, z: 0}
+    m_Position: {x: 270, y: 290, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 220, y: -50, z: 0}
-  m_EntryPosition: {x: 220, y: 140, z: 0}
-  m_ExitPosition: {x: 480, y: 40, z: 0}
+  m_AnyStatePosition: {x: 50, y: 50, z: 0}
+  m_EntryPosition: {x: 50, y: 100, z: 0}
+  m_ExitPosition: {x: 50, y: 190, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: -7239150346427373739}
